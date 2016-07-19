@@ -15,6 +15,9 @@
 		96E9AC181D3EA08400D3DD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E9AC161D3EA08400D3DD7A /* LaunchScreen.storyboard */; };
 		96E9AC231D3EA08400D3DD7A /* SendInfoWithSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E9AC221D3EA08400D3DD7A /* SendInfoWithSegueTests.m */; };
 		96E9AC2E1D3EA08400D3DD7A /* SendInfoWithSegueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E9AC2D1D3EA08400D3DD7A /* SendInfoWithSegueUITests.m */; };
+		96E9AC3D1D3EA2A300D3DD7A /* DestinoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E9AC3C1D3EA2A300D3DD7A /* DestinoViewController.m */; };
+		96E9AC3E1D3EA2A300D3DD7A /* DestinoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E9AC3C1D3EA2A300D3DD7A /* DestinoViewController.m */; };
+		96E9AC3F1D3EA2A300D3DD7A /* DestinoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E9AC3C1D3EA2A300D3DD7A /* DestinoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,8 @@
 		96E9AC291D3EA08400D3DD7A /* SendInfoWithSegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendInfoWithSegueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E9AC2D1D3EA08400D3DD7A /* SendInfoWithSegueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendInfoWithSegueUITests.m; sourceTree = "<group>"; };
 		96E9AC2F1D3EA08400D3DD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E9AC3B1D3EA27A00D3DD7A /* DestinoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinoViewController.h; sourceTree = "<group>"; };
+		96E9AC3C1D3EA2A300D3DD7A /* DestinoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,8 @@
 				96E9AC161D3EA08400D3DD7A /* LaunchScreen.storyboard */,
 				96E9AC191D3EA08400D3DD7A /* Info.plist */,
 				96E9AC081D3EA08300D3DD7A /* Supporting Files */,
+				96E9AC3B1D3EA27A00D3DD7A /* DestinoViewController.h */,
+				96E9AC3C1D3EA2A300D3DD7A /* DestinoViewController.m */,
 			);
 			path = SendInfoWithSegue;
 			sourceTree = "<group>";
@@ -273,6 +280,7 @@
 				96E9AC101D3EA08400D3DD7A /* ViewController.m in Sources */,
 				96E9AC0D1D3EA08400D3DD7A /* AppDelegate.m in Sources */,
 				96E9AC0A1D3EA08300D3DD7A /* main.m in Sources */,
+				96E9AC3D1D3EA2A300D3DD7A /* DestinoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96E9AC231D3EA08400D3DD7A /* SendInfoWithSegueTests.m in Sources */,
+				96E9AC3E1D3EA2A300D3DD7A /* DestinoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96E9AC2E1D3EA08400D3DD7A /* SendInfoWithSegueUITests.m in Sources */,
+				96E9AC3F1D3EA2A300D3DD7A /* DestinoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SendInfoWithSegue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MART.SendInfoWithSegue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SendInfoWithSegue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MART.SendInfoWithSegue;
 				PRODUCT_NAME = "$(TARGET_NAME)";

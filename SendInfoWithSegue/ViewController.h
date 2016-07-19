@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *mensajeQueLLego;
+@property (weak, nonatomic) IBOutlet UITextField *MensajeAEnviar;
+
+
+@property (strong, nonatomic) NSString  *buzonEntrada;
 
 @end
 
